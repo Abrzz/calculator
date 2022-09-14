@@ -1,0 +1,118 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f8e1bc;
+}
+
+.container {
+  margin-top: 50px;
+  border: 2px solid black;
+  background-color: #494949;
+  height: 300px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.container * {
+  color: white;
+}
+
+.screen {
+  background-color: #bbbbbb;
+  width: 280px;
+  margin: 10px 0;
+  height: 75px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.screen * {
+  color: black;
+}
+
+.btn-container {
+  height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5px;
+}
+
+.btn-container #clear {
+  background-color: #0084ff;
+  width: 137.5px;
+  height: 30px;
+  border-style: none;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.btn-container #clear:hover {
+  background-color: #2e98fa;
+  scale: 1.01;
+}
+
+.btn-container #del {
+  background-color: red;
+  height: 30px;
+  width: 137.5px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.btn-container #del:hover {
+  background-color: #fd4040;
+  scale: 1.01;
+}
+
+.btn-container .calculator-btn {
+  width: 22.5%;
+  height: 40px;
+  margin: 0 3px;
+  background-color: #1d1d1d;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.btn-container .calculator-btn:hover {
+  background-color: #8f8f8f;
+  color: #181818;
+  scale: 1.05;
+}
+/*# sourceMappingURL=style.css.map */
